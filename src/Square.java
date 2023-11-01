@@ -7,6 +7,6 @@ public class Square extends Obj {
     }
 
     public void draw(Graphics g) {
-        g.drawRect(point.x - size / 2, point.y - size / 2, size, size);
+        g.drawRect(point.x - (size / 2), point.y - (size / 2), size, size);
     }
 }

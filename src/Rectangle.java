@@ -7,6 +7,6 @@ public class Rectangle extends Obj {
     }
 
     public void draw(Graphics g) {
-        g.drawRect(point.x - size, point.y - size / 2, size * 2, size);
+        g.drawRect(point.x - size, point.y - (size / 2), (size * 2), size);
     }
 }
