@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class Obj {
+abstract class Obj extends Component{
     public Point point;
     public int size;
 
@@ -8,7 +8,5 @@ public class Obj {
         this.point = p;
         this.size = size;
     }
-
-    public void draw(Graphics g) {
-    }
+    public abstract void paint(Graphics g);
 }

@@ -6,7 +6,7 @@ public class Rectangle extends Obj {
         super(p, size);
     }
 
-    public void draw(Graphics g) {
+    public void paint(Graphics g) {
         g.drawRect(point.x - size, point.y - (size / 2), (size * 2), size);
     }
 }

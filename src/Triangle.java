@@ -5,7 +5,7 @@ public class Triangle extends Obj {
         super(p, size);
     }
 
-    public void draw(Graphics g) {
+    public void paint(Graphics g) {
         g.drawLine(point.x, point.y - size, point.x - size, point.y + size);
         g.drawLine(point.x - size, point.y + size, point.x + size, point.y + size);
         g.drawLine(point.x + size, point.y + size, point.x, point.y - size);
