@@ -1,9 +1,9 @@
 import java.awt.*;
 
-public class Square extends Obj {
+public class Square extends Polygon {
 
-    public Square(Point p, int size) {
-        super(p, size);
+    public Square(int x, int y, int size) {
+        super(x, y, size);
     }
 
     public void paint(Graphics g) {

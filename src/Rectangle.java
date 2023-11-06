@@ -1,9 +1,9 @@
 import java.awt.*;
 
-public class Rectangle extends Obj {
+public class Rectangle extends Polygon {
 
-    public Rectangle(Point p, int size) {
-        super(p, size);
+    public Rectangle(int x, int y, int size) {
+        super(x, y, size);
     }
 
     public void paint(Graphics g) {

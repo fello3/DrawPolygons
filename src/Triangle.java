@@ -1,8 +1,9 @@
 import java.awt.*;
 
-public class Triangle extends Obj {
-    public Triangle(Point p, int size) {
-        super(p, size);
+public class Triangle extends Polygon {
+
+    public Triangle(int x, int y, int size) {
+        super(x, y, size);
     }
 
     public void paint(Graphics g) {
